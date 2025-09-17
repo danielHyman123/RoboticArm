@@ -31,17 +31,4 @@ void loop() {
   servoBase.write(angleBase);
   Serial.printf("X,Y,Z: %d,\t%d,\t%d\n", xVal, yVal, zVal);
   // delay(1000);
-
-
-  // // Sweep from 0° to 180°
-  // for (angleBase = 0; angleBase <= 180; angleBase += 1) {
-  //   servoBase.write(angleBase);    // move servo to 'angle'
-  //   delay(15);               // wait for servo to reach position
-  // }
-
-  // // Sweep back from 180° to 0°
-  // for (angleBase = 180; angleBase >= 0; angleBase -= 1) {
-  //   servoBase.write(angleBase);
-  //   delay(15);
- // }
 }
